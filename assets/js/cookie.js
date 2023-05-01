@@ -115,7 +115,7 @@ $.removeCookie = function (key, options) {
 
 
 
- if ($.cookie("Egitim360KatalogCookie") == "true") {
+ if ($.cookie("LMSSignIn") == "true") {
      console.log("Cookie var.");
  } else {
     console.log("Cookie yok.");
@@ -124,9 +124,10 @@ $.removeCookie = function (key, options) {
 
       $(".close-btn, .close-btn2").click(function() {
           $(".cookie-policy").removeClass("position-cookie");
+          $.cookie("LMSSignIn", "true", { expires: 14 });
       })
 
-      $.cookie("Egitim360KatalogCookie", "true", { expires: 7 });
+
     },4000);
 
 
