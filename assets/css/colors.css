@@ -1,0 +1,160 @@
+/* Theme Color */
+
+body, html{
+  background: #353a3e;
+  color: #fff;
+}
+
+.ice {
+	background: linear-gradient(225deg, #BE93C5, #7BC6CC);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.sea_blue {
+	background: linear-gradient(225deg, #2b5876, #4e4376);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.coral {
+	background: linear-gradient(225deg, #EB3349, #F45C43);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.deep_space {
+	background: linear-gradient(225deg, #000000, #111111, #1c1c1c, #272727, #323232);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.shades_of_grey {
+	background: linear-gradient(90deg, #c6c6c6, #aeaeae, #969696, #7f7f7f, #696969);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.fuchsia {
+	background: linear-gradient(225deg, #B24592, #F15F79);
+	background-size:500% 500%;
+	animation: background 100s ease infinite;
+}
+
+.lila {
+	background: linear-gradient(90deg, #a786bb, #a785ba, #a684b9, #a682b8, #a681b7);
+	background-size:800% 800%;
+	animation: background 100s ease infinite;
+}
+
+.damson {
+	background: linear-gradient(225deg, #642B73, #C6426E);
+	background-size:150% 150%;
+	animation: background 100s ease infinite;
+}
+
+.sunrise {
+	background: linear-gradient(225deg, #16BFFD, #CB3066);
+	background-size:200% 200%;
+	animation: background 100s ease infinite;
+}
+
+.green_and_blue {
+	background: linear-gradient(225deg, #c2e59c, #64b3f4);
+	background-size:200% 200%;
+	animation: background 100s ease infinite;
+}
+
+.rose_water {
+	background: linear-gradient(225deg, #E55D87, #5fc3e4);
+	background-size:200% 200%;
+	animation: background 100s ease infinite;
+}
+
+.water_green {
+	background: linear-gradient(225deg, #77A1D3, #79CBCA, #E684AE);
+	background-size:200% 200%;
+	animation: background 100s ease infinite;
+}
+
+@keyframes background {
+    0%{background-position:0% 100%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 100%}
+}
+
+
+/*Gradient*/
+.billboard-row .billboard .hero-vignette-top{
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#353a3e),to(rgba(20,20,20,0)));
+  background-image: -webkit-linear-gradient(top,#353a3e 0,rgba(20,20,20,0) 100%);
+  background-image: -moz- oldlinear-gradient(top,#353a3e 0,rgba(20,20,20,0) 100%);
+  background-image: -o-linear-gradient(top,#353a3e 0,rgba(20,20,20,0) 100%);
+  background-image: linear-gradient(to bottom,#353a3e 0,rgba(20,20,20,0) 100%);
+}
+
+.billboard-row .full-bleed-billboard .hero-vignette, .vignette-layer {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(20,20,20,0)),color-stop(15%,rgba(20,20,20,.15)),color-stop(29%,rgba(20,20,20,.35)),color-stop(44%,rgba(20,20,20,.58)),color-stop(68%,#141414),to(#141414));
+    background-image: -webkit-linear-gradient(top,rgba(20,20,20,0) 0,rgba(20,20,20,.15) 15%,rgba(20,20,20,.35) 29%,rgba(20,20,20,.58) 44%,#353a3e 68%,#353a3e 100%);
+    background-image: -moz- oldlinear-gradient(top,rgba(20,20,20,0) 0,rgba(20,20,20,.15) 15%,rgba(20,20,20,.35) 29%,rgba(20,20,20,.58) 44%,#353a3e 68%,#353a3e 100%);
+    background-image: -o-linear-gradient(top,rgba(20,20,20,0) 0,rgba(20,20,20,.15) 15%,rgba(20,20,20,.35) 29%,rgba(20,20,20,.58) 44%,#353a3e 68%,#353a3e 100%);
+    background-image: linear-gradient(to bottom,rgba(20,20,20,0) 0,rgba(20,20,20,.15) 15%,rgba(20,20,20,.35) 29%,rgba(20,20,20,.58) 44%,#353a3e 68%,#353a3e 100%);
+}
+
+
+/*Buttons*/
+.ei-button{
+  background-color: rgba(51,51,51,.4);
+  color: #fff;
+}
+
+button{
+  color: #fff;
+  background: #47bdff;
+  border:1px solid #47bdff;
+}
+
+button:not(.notifications-menu, .searchTab):hover{
+  color: #47bdff;
+  background: #fff;
+  border:1px solid #fff;
+}
+
+button input{
+  color:#fff;
+}
+
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder{
+  color: #999;
+}
+
+
+/* Links */
+a{
+  color: #e5e5e5;
+}
+
+a:focus, a:hover {
+    color: #47bdff;
+}
+
+a.current{
+  color: #47bdff;
+}
+
+
+/* Texts */
+p{
+  color: #fff;
+}
+
+p.age{
+  color: #47bdff;
+}
+
+/* Menu */
+.active a{
+  color: #47bdff;
+}

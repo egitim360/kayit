@@ -1,0 +1,1060 @@
+/* Content Tab */
+
+@media screen and (max-width: 1099px) and (min-width: 800px){
+  .video-detail-tab {
+      height: 42vw;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1100px){
+  .video-detail-tab {
+      height: 37vw;
+  }
+}
+
+
+
+@media screen and (min-width: 1600px){
+
+}
+
+@media screen and (min-width: 1400px){
+  .video-detail-tab {
+      height: 32vw;
+  }
+}
+
+
+/* Responsive Index Page */
+@media only screen and (max-width:1280px){
+
+  /* Header */
+  .pinning-header .main-header{
+    padding: 0 7%;
+  }
+
+
+  /*Side Menu*/
+  .side-menu li i,
+  .side-menu li p{
+    font-size: 15px;
+  }
+
+
+  /* Main Slider */
+  .billboard-row .billboard .info .billboard-desc{
+    font-size: 17px;
+  }
+
+
+  /* Mini SLiders*/
+  .video-info{
+    top:25%;
+  }
+
+  /*Slider-Detail*/
+  .video-detail-tab .menu{
+    font-size: 13px;
+  }
+
+
+
+  /* Tall Slider*/
+  .tallRowContainer {
+      min-height: 33vw;
+  }
+
+
+  /* Badges and Ranks List */
+  .list-content ul li{
+    width: 100%;
+  }
+
+  .list-content ul li .badges-info{
+    padding: 0 8.4vw;
+  }
+
+  .list-content ul li .list-icon{
+    width: 20%;
+  }
+
+  .list-content ul li .progress-bar {
+    bottom: 4vw;
+    left: 24vw;
+  }
+
+
+  /* Big Slider */
+
+  .bigRow .video-component-container{
+    right: 2.35vw;
+  }
+
+
+  /* Leaderboard */
+
+  .top-one-hundred-list li .profile-info{
+    font-size: 15px;
+  }
+
+  .my-rank:before {
+    width: 70px;
+    right: -100px;
+  }
+
+  .my-rank:after {
+      right: -65px;
+      width: 45px;
+      height: 40px;
+  }
+
+
+  /* Social Page */
+  .social-share-content .total-activity p span {
+      margin-left: -5px;
+  }
+
+
+  /* Exam Page */
+  #exams .button{
+    font-size: 15px;
+  }
+
+}
+
+
+@media only screen and (max-width:1080px){
+
+
+  .content.is-fullbleed {
+    margin-top: -80px;
+  }
+
+  /* Header */
+  .pinning-header{
+    position: relative;
+    height: 80px;
+  }
+
+  .ei-svg-button{
+    width: 3.4vw;
+    height: 3.4vw;
+  }
+
+  .billboard-motion .svg-icon {
+    width: 2.4vw;
+    height: 2.4vw;
+  }
+
+  /*Profile*/
+  /*.profile-total-point{
+    font-size: 16px;
+  }
+
+  .pinning-header .profile-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .profile-links {
+    font-size: 17px;
+    padding: 10px 10px;
+  }
+
+  .account-link {
+    font-size: 17px;
+    padding: 10px 10px;
+  }
+
+  .profile-container .pBadges-title{
+    font-size: 17px;
+  }
+
+  .notifications-menu .bell.icon {
+    font-size: 20px;
+  }
+
+  .searchTab .search.icon{
+    font-size: 20px;
+  }
+
+  /*Main Menu*/
+  /*.pinning-header .tabbed-primary-navigation .navigation-tab a{
+    font-size: 17px;
+  }
+
+  /*Side Menu*/
+  /*.side-menu li i, .side-menu li p {
+    font-size: 17px;
+  }
+
+  /* Main Banner*/
+  /*.ei-svg-button {
+    width: 4.4vw;
+    height: 4.4vw;
+  }
+  .billboard-motion .svg-icon {
+    width: 2.9vw;
+    height: 2.9vw;
+  }
+
+  /* Main Banner */
+  /*.billboard-row .billboard .info {
+    width: 45%;
+  }
+  .billboard-row .billboard .info .billboard-desc {
+    font-size: 19px;
+  }
+
+  .ei-button{
+    font-size: 19px;
+  }
+
+  /*Main Sliders*/
+  /*.lolomoRow.lolomoRow_title_card .rowTitle .row-header-title{
+    font-size: 22px;
+  }
+
+  /* Big Slider*/
+  /*.bigRow .info .detail-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .bigRow .info .detail-exp{
+    font-size: 17px;
+  }
+*/
+
+/* Slider Detail */
+.detail-left ul li .gains-img-cover{
+  width: 55px;
+}
+
+/* Leaderboard */
+.top-one-hundred-list li:nth-child(n) {
+    border: 2px solid #4ec2e7;
+}
+.top-one-hundred-list li:nth-child(2n) {
+    border: 2px solid #fb183f;
+}
+.top-one-hundred-list li:nth-child(3n) {
+    border: 2px solid #7255d5;
+}
+
+.top-one-hundred-list li .profile-img {
+    position: relative;
+    width: 4.7vw;
+    height: 3.7vw;
+    margin-left: -5vw;
+}
+
+.top-one-hundred-list li .profile-info {
+    font-size: 14px;
+}
+
+.top-one-hundred-list li .ranked{
+  height: 60px;
+}
+
+.top-one-hundred-list li .profile-info .level {
+    width: 40px;
+}
+
+.top-one-hundred-list li .profile-info .point img,
+.top-one-hundred-list li .profile-info .avarage-point img  {
+    width: 23%;
+}
+
+  /*Exams*/
+  .element-item{
+    width: 35%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:800px){
+
+  .loading img {
+    width: 20%;
+  }
+
+  body.stop-scrolling{
+    overflow: hidden!important;
+    position: fixed;
+    width: 100%;
+  }
+
+  /* Side Menu */
+  .side-bar{
+    display: none;
+  }
+
+  /*Wrapper*/
+  .content{
+    padding-bottom: 0;
+  }
+
+
+  /*Main Banner*/
+
+  .billboard-row .billboard .info .title-logo, .billboard-row .billboard .info .title-treatment {
+      width: 55%;
+  }
+  .billboard-row{
+    padding-bottom: 50%;
+  }
+
+  .billboard-motion{
+    height: 60vw;
+  }
+
+  .billboard-row .billboard .info{
+    width: 70%;
+    height: 90%;
+    padding-left: 5%;
+  }
+
+  .ei-svg-button {
+    width: 45px;
+    height: 45px;
+  }
+  .billboard-motion .svg-icon{
+    width: 28px;
+    height: 36px;
+  }
+
+
+
+  /* Main Sliders */
+  .main-slider {
+    position: relative;
+    padding-left: 5%;
+  }
+
+  .lolomoRow.lolomoRow_title_card{
+    margin: 6vw 0;
+  }
+
+  .lolomoRow.lolomoRow_title_card .rowTitle{
+    min-width: initial;
+    letter-spacing: 0;
+    margin: 0 4% .5em 5%;
+  }
+
+  .lolomoRow.lolomoRow_title_card .rowTitle .row-header-title{
+    line-height: initial;
+  }
+
+  .swiper-button-prev{
+    left: 0;
+  }
+
+  .slide-prev{
+    left: 10px;
+  }
+
+
+  /* Video Detail Tab */
+  .detail-content .title .logo {
+    max-width: 35vw;
+    height: 10vw;
+  }
+
+  .video-detail-tab .detail-content{
+    padding: 18px 0 12px 5%;
+  }
+
+  .video-detail-tab{
+    height: 55vw;
+  }
+
+  .detail-content .overview .overview-info {
+    width: 50vw;
+  }
+
+  .detail-content .overview .detail-exp,
+  .detail-content .overview .meta-lists{
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .video-detail-tab .menu a{
+    font-size: 14px;
+  }
+
+  .overview-action .ei-button{
+    font-size: 13px;
+  }
+  .ei-vote-button{
+    width: 35px;
+    height: 35px;
+  }
+
+
+  .detail-text{
+    height: initial
+    overflow: initial;
+    padding-bottom: 25px;
+  }
+
+  .lesson-main-info{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .lesson-main-info ul{
+    margin-bottom: 20px;
+  }
+
+  .lesson-main-info ul.lesson-name,
+  .lesson-main-info ul.lesson-target-group,
+  .lesson-main-info ul.lesson-time {
+    width: 100%;
+  }
+
+  .lesson-main-info ul.lesson-time{
+    margin-bottom: 0;
+  }
+
+  .detail-left ul span{
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .detail-left ul li .gains-img-cover{
+    width: 55px;
+  }
+
+  .tabs{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow-y: scroll;
+    vertical-align: top;
+    white-space: normal;
+    width: 90%;
+    line-height: 1.2;
+    height: 70%;
+    font-size: 15px;
+    z-index: 99;
+  }
+
+  .tabs .mCSB_container{
+    display: flex;
+  }
+
+  .detail-content .overview .video-meta{
+    font-size: 16px;
+  }
+
+  .detail-content .overview{
+    width: 90%;
+  }
+
+  .tabs .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical,
+  .tabs .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+    right: -10px;
+    opacity: 1;
+  }
+
+  .tabs .mCSB_container{
+    padding-bottom: 30px;
+  }
+
+  .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+      background-color: #fff;
+      background-color: rgba(255,255,255,0.9);
+  }
+
+
+
+
+  /* Tall Slider */
+  .tall-slider{
+    padding: 0 60px 0 5%;
+  }
+
+  .item-tall{
+    height: 58vw;
+  }
+
+
+
+  /* Big Row */
+  .bigRow{
+    padding: 36vw 0 0 0;
+  }
+  .bigRow .video-component-container{
+    right: 5%;
+  }
+  .bigRow .info .title-logo {
+    width: 35vw;
+  }
+  .bigRow .info .detail-title{
+    font-size: 17px;
+  }
+  .bigRow .info .detail-exp {
+      margin-top: 1.3vw;
+      font-size: 15px;
+      width: 85%;
+  }
+
+
+
+
+  /* Leaderboard */
+
+  .top-one-hundred-list{
+    width: 100%;
+    margin:0;
+    padding: 0 5%;
+  }
+
+  .top-one-hundred-list li{
+    padding: 0 5vw;
+    height: 65px;
+  }
+
+  .top-one-hundred-list li .ranked{
+        height: 8.4vw;
+  }
+
+  .top-one-hundred-list li .ranked:after {
+    width: 4.8vw;
+    height: 9vw;
+  }
+
+  .top-one-hundred-list li .profile-info .point:after{
+    width: 2.5vw;
+    height: 3vw;
+  }
+
+  .top-one-hundred-list li .profile-info .avarage-point:after{
+    width: 2.5vw;
+    height: 3vw;
+  }
+
+
+  /* List Wrap */
+  .list-wrapper,
+  .center-box{
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  .center-box .title{
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  /* Social Page*/
+  .social-tags{
+    display: none;
+  }
+
+  .right-social-box .posts{
+    width: 100%;
+  }
+
+  .social-share-content .total-activity{
+    flex-direction: column;
+  }
+
+  .social-share-content .total-activity p{
+    width: 100%;
+    justify-content: center;
+  }
+  .social-share-content .total-activity p span{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  /*Exam Page*/
+  #exams .button{
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .element-item{
+    width: 31%;
+    margin-right: 10px;
+  }
+
+
+  /* Badges and Ranks*/
+  .list-content ul li .list-icon img {
+    width: 8.5vw;
+    max-width: 85px;
+  }
+  .list-content ul li .progress-bar {
+    bottom: 6vw;
+    left: 28vw;
+  }
+
+
+  /* Profil */
+  .profile-wrapper{
+    min-height: initial;
+  }
+
+  .profile-actions-container .profile-left-box{
+    width: 60%
+  }
+  .profile-actions-container .profile-right-box{
+    width: 35%;
+  }
+
+  .profile-edit div{
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .profile-edit .profile-txt {
+    font-size: 17px;
+  }
+
+  .profile-actions-container{
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  #profile .ui.form input{
+    width: 100%;
+    height: 4.2vw;
+  }
+
+  #profile .ui.form label {
+    left: 2vw;
+    font-size: 15px;
+  }
+
+  .profile-save, .profile-cancel{
+    font-size: 13px;
+  }
+
+  .profile-action-head h2{
+    font-size: 21px;
+  }
+
+  #profile .ui.form.profile-new-password input {
+    height: 5.3vw;
+  }
+  .profile-detail-charts li p.canvas-info-title{
+    font-size: 14px;
+    top: 29%;
+  }
+
+  .profile-detail-charts .chart-info{
+    position: relative;
+    margin-top: 40px;
+    font-size:13px;
+  }
+
+
+
+  /*Exams*/
+  .element-item{
+    width: 46%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width:450px){
+
+/* Cookie */
+.cookie-policy{
+  width: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+  /* Responsive */
+  .mobile{
+    display: block!important;
+  }
+  .mobile-phone{
+    display: block!important;
+  }
+  .desktop{
+    display: none!important;
+  }
+  /**/
+
+  /* Menu */
+  .mobile-menu-trigger{
+    width: 35px;
+  }
+
+  .mobile-menu-trigger span{
+    height: 3px;
+  }
+
+  .mobile-menu-trigger.active-trigger span:first-child {
+    transform: translateY(17px) rotate(45deg);
+  }
+
+  /* Main Banner */
+  .billboard-row{
+    padding-bottom: 140vw;
+  }
+
+  .billboard.trailer-billboard .info .logo-and-text{
+    padding-top: 55vw;
+  }
+
+  .billboard-motion{
+    height: 150vw;
+  }
+
+  .billboard-row .billboard .hero-vignette-top{
+    height: 25vw;
+  }
+
+  .billboard-row .full-bleed-billboard .hero-vignette, .vignette-layer{
+    height: 90vw;
+  }
+
+
+  /* Main Sliders*/
+  .lolomoRow.lolomoRow_title_card .rowTitle {
+    min-width: initial;
+    margin: 0 4% 0 5%;
+  }
+
+
+
+  /* Detail Tab */
+  .video-detail-tab {
+    height: 115vw;
+  }
+
+  .detail-content .title .logo{
+    height: auto;
+    max-width: 60vw;
+  }
+
+  .detail-content .overview .overview-info {
+    width: 85vw;
+  }
+
+  .tabs .mCSB_container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-left, .detail-right{
+    width: 100%;
+    border:none;
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+
+
+  /*Big Slider*/
+  .lolomoBigRow{
+    display: none;
+  }
+
+  /* Tall Slider*/
+  .tallRowContainer {
+    min-height: 53vw;
+  }
+
+
+  /*Slide*/
+  .swiper-button-next, .swiper-button-prev{
+    width: 15%;
+  }
+
+  .slide-next{
+    right: -35px;
+  }
+  .slide-prev{
+    left: -35px;
+  }
+
+  .slide-prev:before{
+    right:0;
+    top: -14px;
+    width: 3px;
+    height: 22px;
+  }
+  .slide-prev:after{
+    right:0;
+    width: 3px;
+    height: 22px;
+  }
+
+  .slide-next:before{
+    left:0;
+    top: -14px;
+    width: 3px;
+    height: 22px;
+  }
+  .slide-next:after{
+    left:0;
+    width: 3px;
+    height: 22px;
+  }
+
+
+  /*Exam Page*/
+  .element-item{
+    width: 100%;
+    margin-right: 3%;
+    margin-bottom: 15px;
+  }
+
+  .element-item .status-box:after{
+    width: 5.14vw;
+    height: 5.03vw;
+  }
+
+
+
+  /*Badges and Ranks*/
+  .list-content ul li{
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .list-content ul li .list-icon{
+    height: 65px;
+  }
+
+  .list-content ul li .list-icon img {
+    width: 9.5vw;
+  }
+
+  .list-content ul li .list-exp .exp-title{
+    font-size: 15px;
+  }
+
+  .list-content ul li .list-exp .exp-content {
+    font-size: 13px;
+  }
+
+  .list-content ul li .progress-bar{
+    height: 12px;
+    bottom: 8vw;
+  }
+
+  .list-content ul li .progress-bar .progress-text{
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+
+
+  /* Social Page */
+  .social-share-content{
+    flex-direction: column;
+  }
+
+  .left-social-box,
+  .right-social-box{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-share-content .social-profile{
+    text-align: left;
+  }
+
+  .social-share-content .social-img > a{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-share-content .profile-info{
+    width: 68%;
+    margin-top: -20px;
+  }
+
+  .social-share-content .social-img img{
+    margin-top: -10px;
+  }
+
+  .social-share-content .profile-info span#profile-rank{
+    display: flex;
+    align-items: center;
+  }
+
+  .social-share-content .profile-info span img{
+    margin: 0 10px 0 0;
+  }
+
+  .social-share-content .total-activity{
+    flex-direction: row;
+  }
+
+
+  /* Profil Page */
+  .profile-actions-container{
+    flex-direction: column;
+  }
+
+  .profile-actions-container .profile-left-box,
+  .profile-actions-container .profile-right-box{
+    width: 100%;
+  }
+
+  .profile-edit div{
+    margin: 0 0 2vw 0;
+  }
+
+  #profile .ui.form input {
+    font-size: 14px;
+    height: 9.2vw;
+  }
+  #profile .ui.form.profile-new-password input {
+    height: 9.2vw;
+  }
+  #profile .ui.error.message{
+    font-size: 14px;
+  }
+  .ui.form .fields .field{
+    position: relative;
+  }
+  #profile .ui.form label {
+    left: 20px;
+  }
+
+
+  .profile-actions-container .profile-right-box{
+    margin-top: 50px;
+  }
+
+  .profile-detail-charts li canvas{
+    margin: 0;
+  }
+
+  .profile-detail-charts li p.canvas-info-title{
+    left: 50%;
+    top: 32%;
+  }
+
+  .profile-detail-charts .chart-info {
+    position: relative;
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 13px;
+    top: initial;
+    transform: initial;
+  }
+
+
+  /* Exam */
+  .button-box{
+    width: 48%;
+  }
+  .button-box:nth-child(2n){
+    margin-right: 0;
+  }
+
+  .element-item .status-box:after{
+    width: 8.14vw;
+    height: 8.03vw;
+  }
+
+  /* Leaderboard */
+  .top-one-hundred-list li .profile-img{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .top-one-hundred-list li .profile-info .mobile-column{
+    width: auto;
+    flex-direction: column;
+  }
+
+  .top-one-hundred-list li .ranked{
+    width: 34px;
+    height: 100%;
+    margin-left: 12vw;
+    margin-right: 0;
+  }
+  .top-one-hundred-list li .ranked:after{
+    top: -11px;
+    width: 8.8vw;
+    height: 100%;
+  }
+
+  .top-one-hundred-list li .profile-info .point{
+    margin-bottom: 5px;
+  }
+
+  .top-one-hundred-list li .board-profile-name{
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90px;
+    white-space: nowrap;
+  }
+
+  .top-one-hundred-list li .profile-info .level {
+    width: 30px;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width:380px){
+
+  /* Badges and Ranks*/
+  .list-content ul li .list-exp{
+    width: 65%;
+  }
+
+  .list-content ul li .progress-bar {
+    left: 26vw;
+  }
+
+  /*Exam Page*/
+  .element-item{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Leaderboard*/
+  .top-one-hundred-list li .ranked{
+    width: 28px;
+    margin-left: 10vw;
+    font-size: 12px;
+  }
+
+  .top-one-hundred-list li .ranked:after{
+    top: -8px;
+  }
+
+  .top-one-hundred-list li .profile-info .level{
+    display: none;
+  }
+
+}

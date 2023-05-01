@@ -1,0 +1,248 @@
+{
+   "Badges": [
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Yeni Bir Başlangıç",
+               "desc":"Yeni işine hoş geldin demek için bizden sana küçük bir hediye. Aramıza hoş geldin.",
+               "badgeSrc":"yeni-is.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Giriş",
+               "desc":" Bu ödülü kazanmak için ilk gün giriş yapman gerekiyor.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 2",
+               "desc":" Toplam 3 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 3",
+               "desc":" Toplam 5 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 4",
+               "desc":" Toplam 7 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 5",
+               "desc":" Toplam 14 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 6",
+               "desc":" Toplam 30 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 7",
+               "desc":" Toplam 50 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             },
+             {
+               "title":"Giriş 8",
+               "desc":" Toplam 80 gün giriş yap.",
+               "badgeSrc":"gunluk-giris.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Gece Kuşu",
+               "desc":"Gece giriş yapıp bir eğitim izlediğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"gece-kusu.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Meraklı",
+               "desc":"İlk eğitimini bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             },
+             {
+               "title":"Eğitim Sever",
+               "desc":"Toplam 5 eğitimin bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             },
+             {
+               "title":"",
+               "desc":"Toplam 10 eğitimin bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             },
+             {
+               "title":"",
+               "desc":"Toplam 20 eğitimin bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             },
+             {
+               "title":"",
+               "desc":"Toplam 30 eğitimin bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             },
+             {
+               "title":"Profesör X",
+               "desc":"Toplam 50 eğitimin bitirdiğinde bu ödülü kazanabilirsin.",
+               "badgeSrc":"toplam-egitim.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Mini Mini Birler",
+               "desc":"Bir günde 1 eğitim bitir.",
+               "badgeSrc":"gunluk-egitim.png"
+             },
+             {
+               "title":"Çalışkan İkiler",
+               "desc":"Bir günde 3 eğitim bitir.",
+               "badgeSrc":"gunluk-egitim.png"
+             },
+             {
+               "title":"Işıktan Hızlı",
+               "desc":"Bir günde 5 eğitim bitir.",
+               "badgeSrc":"gunluk-egitim.png"
+             },
+             {
+               "title":"Arriba, arriba Andale, andale!",
+               "desc":"Bir günde 7 eğitim bitir.",
+               "badgeSrc":"gunluk-egitim.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"O kadar da zor değildi.",
+               "desc":"1 Eğitimdeki tüm soruları doğru cevapla.",
+               "badgeSrc":"egitim-soru-cevap.png"
+             },
+             {
+               "title":"Çalışkan",
+               "desc":"3 Eğitimdeki tüm soruları doğru cevapla.",
+               "badgeSrc":"egitim-soru-cevap.png"
+             },
+             {
+               "title":"Zeka Küpü",
+               "desc":"5 Eğitimdeki tüm soruları doğru cevapla.",
+               "badgeSrc":"egitim-soru-cevap.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"Çekingen",
+               "desc":"Bu ödül için bir etkinliğe katılmalısın.",
+               "badgeSrc":"etkinlik.png"
+             },
+             {
+               "title":"Sosyal Kelebek",
+               "desc":"Toplam 3 Etkinliğe katıldığında bu ödülü kazanabilirsin.",
+               "badgeSrc":"etkinlik.png"
+             },
+             {
+               "title":"Popüler",
+               "desc":"Toplam 5 Etkinliğe katıldığında bu ödülü kazanabilirsin.",
+               "badgeSrc":"etkinlik.png"
+             },
+             {
+               "title":"Etkinliklerin Gözdesi",
+               "desc":"Toplam 7 Etkinliğe katıldığında bu ödülü kazanabilirsin.",
+               "badgeSrc":"etkinlik.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"",
+               "desc":"Sisteme 1aydır kayıtlı olduğunda bu ödülü kazanabilirsin.",
+               "badgeSrc":"kullanım-suresi.png"
+             },
+             {
+               "title":"",
+               "desc":"Sisteme 3 aydır kayıtlı olduğunda bu ödülü kazanabilirsin.",
+               "badgeSrc":"kullanım-suresi.png"
+             },
+             {
+               "title":"",
+               "desc":"Sisteme 6 aydır kayıtlı olduğunda bu ödülü kazanabilirsin.",
+               "badgeSrc":"kullanım-suresi.png"
+             },
+             {
+               "title":"",
+               "desc":"Sisteme 12 aydır kayıtlı olduğunda bu ödülü kazanabilirsin.",
+               "badgeSrc":"kullanım-suresi.png"
+             },
+             {
+               "title":"",
+               "desc":"Sisteme 2 yıldır kayıtlı olduğunda bu ödülü kazanabilirsin.",
+               "badgeSrc":"kullanım-suresi.png"
+             }
+           ]
+      },
+      {
+         "barcode": "Burası Değişecek",
+         "types":
+           [
+             {
+               "title":"",
+               "desc":"Şampiyonlar Ligi'nde ilk 100'e gir.",
+               "badgeSrc":"siralama.png"
+             },
+             {
+               "title":"",
+               "desc":"Şampiyonlar Ligi'nde ilk 50'e gir.",
+               "badgeSrc":"siralama.png"
+             },
+             {
+               "title":"",
+               "desc":"Şampiyonlar Ligi'nde ilk 20'e gir.",
+               "badgeSrc":"siralama.png"
+             },
+             {
+               "title":"",
+               "desc":"Şampiyonlar Ligi'nde ilk 10'a gir.",
+               "badgeSrc":"siralama.png"
+             },
+             {
+               "title":"",
+               "desc":"Şampiyonlar Ligi'nde ilk 3'e gir.",
+               "badgeSrc":"kullanım-suresi.png"
+             },
+             {
+               "title":"Bir Şampiyon Doğuyor",
+               "desc":"Şampiyonlar Ligi'nde 1. ol",
+               "badgeSrc":"kullanım-suresi.png"
+             }
+           ]
+      },
+   ]
+}
