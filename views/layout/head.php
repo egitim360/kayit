@@ -1,35 +1,52 @@
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eğitim360 - Yeni Nesil Eğitim Platformu</title>
-  <meta name="title" content="">
-  <meta property="og:title" content="">
-  <meta name="description" content=" ">
-  <meta property="og:description" content=" ">
-  <meta name="keywords" content="">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="Turkish">
-  <meta name="revisit-after" content="5 days">
-  <meta name="author" content="">
-  <meta property="og:url" content="">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="anket.einstein.com.tr">
+  <?php
+    if($page == "genel-memnuniyet"){ ?>
+      <meta name="description" content="E-Yenilikçi Eğitim Çözümleri - EINSTEIN">
+      <title> [einstein] - Genel Memnuniyet Formu </title>
+  <?php} else{ ?>
+      <meta name="description" content="E-Yenilikçi Eğitim Çözümleri - EINSTEIN">
+      <title> [einstein] - Memnuniyet Anketi </title>
+  <?php }?>
 
+  <!-- Favicons-->
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/semantic.min.css">
-  <link rel="stylesheet" href="assets/css/swiper.min.css">
-  <link rel="stylesheet" href="assets/css/lity.min.css">
-  <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
-  <link rel="stylesheet" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="assets/css/lms-main.css" />
-  <link rel="stylesheet" href="assets/css/header.css" />
-  <link rel="stylesheet" href="assets/css/footer.css" />
-  <link rel="stylesheet" href="assets/css/colors.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
-  <!--?v=1-->
-  <link rel="canonical" href="" />
+  <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+  <!-- BASE CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/menu.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/vendors.css" rel="stylesheet">
+
+  <!-- YOUR CUSTOM CSS -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <!-- MODERNIZR MENU -->
+  <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="js/modernizr.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11097556-8']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 </head>
